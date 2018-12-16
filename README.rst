@@ -21,6 +21,11 @@ Example run:
 .. code::
 
     python run_dense_net.py --train --test --dataset=C10
+Run SVHN dataset:
+
+.. code::
+
+    python run_dense_net.py --train --test --dataset=SVHN --model_type=DenseNet-BC --growth_rate 12 --saves --depth=100
 
 List all available options:
 
